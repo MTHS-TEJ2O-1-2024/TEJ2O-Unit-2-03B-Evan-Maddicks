@@ -8,6 +8,25 @@
 basic.clearScreen()
 basic.pause(1000)
 
+//Script
+basic.showString('A rectangle has dimensions 5 cm & 3 cm.')
+basic.pause(1000)
+basic.showString('The perimeter would be: 16 cm.')
+basic.pause(1000)
+basic.showString('The area would be: 15 cm^2')
+
+//Area
+basic.showString('A = 5 cm x 3 cm =' + (5 * 3).toString())
+basic.showString('A = 15 cm^2')
+basic.pause(1000)
+basic.showIcon(IconNames.Happy)
+basic.clearScreen()
+basic.pause(1000)
+
+//Perimeter
+basic.showString('P = 5(2) + 3(2) =' + (5 * 3).toString())
+basic.pause(1000)
+
 //Addition
 basic.showString('312 + 42 =' + (312 + 42 ).toString())
 basic.showIcon(IconNames.Happy)
